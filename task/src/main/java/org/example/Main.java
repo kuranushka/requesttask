@@ -6,7 +6,7 @@ import java.util.concurrent.TimeUnit;
 public class Main {
     public static void main(String[] args) {
 
-        CrptApi crptApi = new CrptApi(50, TimeUnit.SECONDS);
+        CrptApi crptApi = new CrptApi(20, TimeUnit.SECONDS);
 
         try {
             Thread.sleep(1000);

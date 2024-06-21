@@ -35,7 +35,7 @@ public class CrptApi {
 
 
     // URL для запросов
-    private static final String REQUEST_URL = "https://httpbin.org/post";
+    private static final String REQUEST_URL = "https://ismp.crpt.ru/api/v3/lk/documents/create";
 
     // Форматтер для логирования
     private static final DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("HH-mm-ss");
